@@ -1,0 +1,157 @@
+html, body {
+    background-color: #E6EFF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    width: 635px;
+    height: 475px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+
+.component-1 {
+    background-color: #FFFFFF;
+    grid-column: 1 / 3;
+    border-radius: 8px 8px 0px 0px;
+    height: 216px;
+}
+
+.component-1 h1, .component-1 h3, .component-1 p {
+    margin-left: 40px;
+}
+
+h1 {
+    color: #2AB3B1;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #C0DF33;
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.225px;
+}
+
+.description-1 {
+    width: 555px;
+    margin-top: 11px;
+    color: #9AA7BE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+
+.component-2 h2, .component-2 .price, .component-2 .description-2, .component-2 button {
+    margin-left: 40px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    letter-spacing: -0.225px;
+}
+
+.price-signature {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 700px;
+    color: #FFF;
+    letter-spacing: -0.4px;  
+}
+
+.description-2 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    margin-top: 4px;
+}
+
+.signature {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+
+button {
+    margin-top: 26px;
+    width: 237px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #C0DF33;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.component-3 h2, .component-3 p {
+    margin-left: 40px;
+}
+
+
+.component-2 {
+    background-color: #2AB3B1;  
+    width: 317px;
+    height: 259px;
+    border-radius: 0px 0px 0px 8px;
+}
+
+.component-3 {
+    background-color: #4bbfbe;
+    width: 318px;
+    height: 259px;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.description-3 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+    opacity: 0.75;
+    width: 180px;
+    height: 140px;
+    margin-top: 18px;
+    
+}
+
+
+.attribution { 
+    margin-top: 7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
